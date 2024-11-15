@@ -17,6 +17,14 @@ const shareTechMono = Share_Tech_Mono({
 export const metadata = {
   title: "AI CEO",
   description: "powered by TEE built by Flashbots",
+  icons: {
+    icon: [
+      {
+        url: "/fb_logo.png",
+        type: "image/x-icon",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {

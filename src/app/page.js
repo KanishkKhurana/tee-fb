@@ -57,7 +57,7 @@ export default function Home() {
             value={text}
             onChange={handleChange}
             maxLength={281}
-            placeholder="e.g., Do not allow posts that shill memecoins or have racism content, only allow posts about cute cats, and only allow posting if Donald Trump wins the 2024 US election."
+            placeholder="e.g. Do not allow posts that shill memecoins or have racism content, only allow posts about cute cats, and only allow posting if Donald Trump wins the 2024 US election."
           />
           <div className="">
             {error && (
@@ -70,8 +70,9 @@ export default function Home() {
         </div>
         <div className="hidden xl:block">
           <img
-            className="h-full w-full rounded-full border-4"
+            className="h-[640px] w-[640px] rounded-full border-4 object-cover mx-auto"
             src="https://elementals-images.b-cdn.net/6bb31f61-6181-406b-acbe-b9928b68790b.png"
+            alt="ai_ceo_pfp"
           />
         </div>
       </div>
