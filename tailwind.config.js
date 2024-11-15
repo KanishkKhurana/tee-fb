@@ -11,6 +11,10 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        orbitron: ["var(--font-orbitron)", "sans-serif"],
+        shareTechMono: ["var(--font-share-tech-mono)", "monospace"],
+      },
     },
   },
   plugins: [],
