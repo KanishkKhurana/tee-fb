@@ -7,9 +7,9 @@ export const Nav = () => {
         </p>
       </div>
       <div className="flex items-center space-x-4">
-        <button className="transition hover:bg-orange-500 hover:text-white border-outline border-2 border-orange-500 rounded-lg p-2 text-black">
+        {/* <button className="transition hover:bg-orange-500 hover:text-white border-outline border-2 border-orange-500 rounded-lg p-2 text-black">
           Connect Wallet
-        </button>
+        </button> */}
       </div>
     </div>
   );

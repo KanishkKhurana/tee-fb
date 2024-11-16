@@ -40,15 +40,12 @@ export default function Home() {
       <div className="grid xl:grid-cols-2 gap-x-8 px-16 items-center py-14">
         <div className="flex flex-col space-y-8 text-2xl mr-10 ">
           <div className="text-3xl md:text-4xl lg:text-5xl flex flex-wrap font-bold xl:space-x-0 xl:flex-col uppercase font-orbitron text-wrap break-words">
-            <p className="mr-4">Decentralized</p>
-            <p>Tweeting</p>
+            <p className="mr-4">Shill Global</p>
+          </div>
+          <div className="text-xl">
+          Ready to have your project shilled on stage by the AI CEO at ETHBangkok? With our Teleport tool, you can create a special one-time link that lets someone post a tweet from your account. Once used, it self-destructs. Get your project in the spotlight—seize the opportunity and watch the AI CEO work its magic!
           </div>
           <div className="uppercase">Type your LLM safeguard below</div>
-          <div className="text-xl">
-            Using the Teleport tool, we can generate a unique link that allows
-            someone to make a single post from your Twitter account. Once it’s
-            used, the link is automatically destroyed.
-          </div>
           <textarea
             className={`border-2 rounded-lg p-2 text-xl h-[240px] resize-none 
               ${error ? "outline-red-500" : "outline-gray-300"}
@@ -63,9 +60,11 @@ export default function Home() {
             {error && (
               <p className="text-red-500 text-sm mt-[-18px] mb-4">{error}</p>
             )}
-            <button className="w-full bg-teal-500 rounded-lg p-2 text-white hover:opacity-50 transition">
+            <a href={`https://sxymoon.tdx1.soc1024.com/new?frontend_url=`} target="_blank" rel="noopener noreferrer">
+            <button className="w-full bg-teal-500 rounded-lg p-2 text-white hover:opacity-50 transition" >
               Authorize
             </button>
+            </a>
           </div>
         </div>
         <div className="hidden xl:block">
