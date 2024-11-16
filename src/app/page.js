@@ -60,7 +60,7 @@ export default function Home() {
             {error && (
               <p className="text-red-500 text-sm mt-[-18px] mb-4">{error}</p>
             )}
-            <a href={`https://sxymoon.tdx1.soc1024.com/new?frontend_url=https://sxymoon.netlify.app`} target="_blank" rel="noopener noreferrer">
+            <a href={`https://sxymoon.tdx1.soc1024.com/new?frontend_url=https://tee-fb.vercel.app`} target="_blank" rel="noopener noreferrer">
             <button className="w-full bg-teal-500 rounded-lg p-2 text-white hover:opacity-50 transition" >
               Authorize
             </button>
