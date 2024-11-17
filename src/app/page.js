@@ -26,10 +26,6 @@ export default function Home() {
         <p>&nbsp;&nbsp;–&nbsp;&nbsp;</p>
         <p>Trusted Execution Environment</p>
         <p>&nbsp;&nbsp;–&nbsp;&nbsp;</p>
-        <p>FLASHBOTS</p>
-        <p>&nbsp;&nbsp;–&nbsp;&nbsp;</p>
-        <p>Trusted Execution Environment</p>
-        <p>&nbsp;&nbsp;–&nbsp;&nbsp;</p>
       </Marquee>
       <div className="xl:hidden mt-8 mb-8">
         <img
@@ -61,7 +57,7 @@ export default function Home() {
               <p className="text-red-500 text-sm mt-[-18px] mb-4">{error}</p>
             )}
             <a href={`https://sxymoon.tdx1.soc1024.com/new?frontend_url=https://tee-fb.vercel.app`} target="_blank">
-            <button className="w-full bg-teal-500 rounded-lg p-2 text-white hover:opacity-50 transition" >
+            <button className="w-full bg-teal-500 rounded-lg p-2 text-white hover:opacity-50 transition">
               Authorize
             </button>
             </a>

@@ -33,10 +33,6 @@ export default function RootLayout({ children }) {
       <body className={`${orbitron.variable} ${shareTechMono.variable}`}>
         <Nav />
         <div className="font-shareTechMono">{children}</div>
-        <div className="fixed p-4 flex items-center w-full text-white font-shareTechMono border-t-2 bottom-0 bg-gradient-to-r from-orange-400 to-orange-600">
-          powered by TEE, built by Flashbots
-          <img src="/fb_logo.png" className="h-[16px] w-[16px] ml-2" />
-        </div>
       </body>
     </html>
   );
